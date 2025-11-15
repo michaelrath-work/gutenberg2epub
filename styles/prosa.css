@@ -1,0 +1,592 @@
+body {
+  font-family: arial;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+tbody {
+  font-family: arial;
+}
+
+td  {
+  font-family: arial;
+}
+
+a:link {
+  color: #003399;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #003399;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #003399;
+  text-decoration: none;
+  background-color: #e0e0e0;
+}
+
+a:active {
+  color: #003399;
+  text-decoration: none;
+}
+
+.author {
+  color: gray;
+}
+
+.box {
+  margin-top: 1.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1.5em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  border-top: 1px #666666 solid;
+  border-right: 1px #666666 solid;
+  border-bottom: 1px #666666 solid;
+  border-left: 1px #666666 solid;
+}
+
+.dedication {
+  text-indent: 0pt;
+  text-align: center;
+  font-size: large;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.figcaption {
+  text-indent: 0pt;
+  text-align: center;
+  font-style: italic;
+}
+
+.figure {
+  text-indent: 0pt;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.fraktur {
+  font-family: "Frankenstein", Times, serif;
+}
+
+.hidden, .hide {
+  display: none;
+}
+
+.lektorat {
+  color: darkgrey;
+  font-size: small;
+}
+
+.motto {
+  text-indent: 0pt;
+  margin-left: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.note {
+  line-height: 90%;
+  font-size: 90%;
+}
+
+.online {
+  display: none;
+}
+
+.recipient {
+  margin-left: -1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.regie, .action {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.sender {
+  margin-left: 2em;
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+  margin-left: 2em;
+}
+
+.signatur, .signature {
+  text-align: right;
+  margin-right: 2em;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+
+.speaker {
+  color: #333333;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: darkgray;
+}
+
+ upper {
+  text-transform: uppercase;
+}
+
+.wide, .spaced {
+  letter-spacing: 0.15em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+p {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  text-indent: 0.8em;
+  text-align: justify;
+}
+
+p.abstract {
+  font-size: 90%;
+  font-style: italic;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-indent: 0pt;
+}
+
+p.center {
+  text-indent: 0pt;
+  text-align: center;
+}
+
+p.centerbig {
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
+  text-indent: 0pt;
+  text-align: center;
+  font-size: 115%;
+}
+
+p.centersml {
+  text-indent: 0pt;
+  text-align: center;
+  font-size: 90%;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+
+p.dblmarg {
+  text-indent: 0pt;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+}
+
+p.drama {
+  margin-left: 2em;
+  text-indent: -2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+p.epigraph {
+  text-indent: 0pt;
+  text-align: right;
+  margin-right: 5%;
+  font-style: italic;
+}
+
+p.left {
+  text-indent: 0pt;
+  text-align: left;
+  text-align: justify;
+}
+
+p.initial {
+  text-indent: 0pt;
+}
+
+p.initial:first-letter {
+  font-size: 150%;
+}
+
+p.leftjust {
+  text-indent: 0pt;
+  text-align: justify;
+}
+
+p.leftmarg {
+  text-indent: 0pt;
+  text-align: left;
+  margin-left: 2em;
+  text-align: justify;
+}
+
+hr {
+  text-align: center;
+  color: #999999;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+}
+
+hr.short {
+  color: #666666;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 20%;
+  height: 1px;
+  margin-left: 40%
+}
+
+hr.star {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 20%;
+}
+
+span.tooltip {
+  color: #800000;
+}
+
+/*
+ <span.footnote { display:inline }
+span.footnote a:hover { background-color: #2B2E21; color:#fff }
+span.footnote a:link span, span.footnote a:visited span { display: none }
+span.footnote a:hover span.fntext { position: absolute; margin:20px; background-color: beige;
+          max-width:400px; padding: 5px 10px 5px 10px; border: 1px solid #C0C0C0;
+          font: normal 12px/14px arial; color: #000; text-align:left;
+          display: block; text-decoration:none; left:10px }
+		  */
+		  
+span.footnote:before {
+  content: " [Fussnote: ";
+  color: #505050;
+}
+span.footnote:after {
+  content: "] ";
+  color: #505050;
+}
+span.footnote {
+  color: #505050;
+  font-size: 90%;
+}		  
+		  
+div.epigraph {
+  margin-left: 50%;
+  margin-right: 5%;
+  font-style: italic;
+}
+
+div.impressum {
+  display: none;
+}
+
+div.motto p {
+  text-align: right;
+  text-indent: 0pt;
+}
+
+div.navi {
+  text-align: center;
+}
+
+div.titlepage {
+  text-align: center;
+}
+
+table.dirtoc {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  text-align:left;
+}
+
+table.dirtoc td {
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  padding-left: 1.4em;
+  padding-right: 0.4em;
+  text-indent: -1em;
+}
+
+table.left {
+  margin-left: 0pt;
+  text-align: left;
+}
+
+table.motto {
+  margin-left: 30%;
+  margin-right: 0pt;
+}
+
+table.right {
+  margin-right: 0pt;
+}
+
+table.toc {
+  margin-top: 0.3em;
+}
+
+table.toc td {
+  padding-top: 0pt;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0pt;
+  text-align: left;
+}
+
+table.true, table.real {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+
+img.initial {
+  float: left;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  margin-right: 0.3em;
+}
+
+img.left {
+  float: left;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+img.right {
+  float: right;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+img.deko {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border: 1px solid #606060;
+  text-align: center;
+}
+
+div.poem {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2em;
+}
+
+div.poem blockquote {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+div.vers {
+  text-indent: 0pt;
+  text-align: left;
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.vers p {
+  text-indent: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+}
+
+p.line {
+  text-align: left;
+  text-indent: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+}
+
+p.poem, p.vers {
+  text-align: left;
+  text-indent: 0pt;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+div.letter {
+  text-align: left;
+  margin-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.address {
+  text-align: right;
+  text-indent: 0pt;
+  font-style: italic;
+}
+
+p.date {
+  text-align: right;
+  font-style: italic;
+}
+
+a.pageref {
+  display: none;
+}
+
+a.pageref:before {
+  content: "[";
+}
+
+a.pageref:after {
+  content: "]";
+}
+
+dd {
+  margin-left: 2em;
+}
+
+dl {
+  margin-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+dt {
+  font-weight: bold;
+  margin-top: 4pt;
+}
+
+del {
+  color: red;
+}
+
+ins {
+  color: blue;
+}
+
+p.stars {
+  text-indent: 0pt;
+  text-align: center;
+  font-size: 200%;
+  letter-spacing: 0.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0pt;
+}
+
+sup {
+  font-size: 70%;
+  vertical-align: text-top;
+}
+
+sup.fract {
+  font-size: 70%;
+  vertical-align: text-top;
+}
+
+sub.fract {
+  font-size: 70%;
+  vertical-align: text-bottom;
+}
+
+tt {
+  font-family: Courier;
+}
+
+ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.mainnav {
+  font-family: Arial;
+  font-variant: small-caps;
+  background-color: #ffffff;
+  text-align: center;
+  border-top: 1px #d26402 solid;
+  border-bottom: 1px #d26402 solid;
+}
+
+.mainnav-ed {
+  font-family: Arial;
+  font-variant: small-caps;
+  background-color: #ffffff;
+  text-align: center;
+  border-top: 1px #d26402 solid;
+  border-bottom: 1px #d26402 solid;
+  margin-bottom: 2em; 
+}
+
+div.bottomnavi-gb {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.autalpha {
+  font-family: Arial;
+  text-align: center;
+}
+
+.trenner {
+  font-size: 10pt;
+  font-weight: bold;
+  color: #d26402;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.authorlist {
+  text-align: left;
+}
+
+.toc {
+display: none;
+}
+
+.pageref {
+display: none;
+}
+
+.anzeige-print {
+  text-align: left;
+  background-color: #eeeeee;
+  padding-left: 10px;
+  padding-right: 10px;
+}  
+
+div.anzeige-chap {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+  background-color: #eeeeee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

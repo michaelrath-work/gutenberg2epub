@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+form.gsearch input[type=text] {
+  padding: 1px;
+  font-size: 12px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.gsearch button {
+  float: left;
+  width: 20%;
+  background: #003399;
+  color: white;
+  font-size: 12px;
+  padding: 1px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.gsearch button:hover {
+  background: #0b7dda;
+}
+
+form.gsearch::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button.kreis {
+  width: 20px;
+  padding: 1px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #cc6060;
+  color: black;
+}
+button.kreis:hover {
+  background: #e0e0e0;
+  border: 1px solid #cc6060;
+}
+button.kreis_dummy {
+  width: 20px;
+  padding: 1px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #cc6060;
+  color: black;
+}

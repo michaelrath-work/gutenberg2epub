@@ -1,0 +1,6 @@
+title: frankenstein
+# adjust as needed
+base_url: https://www.projekt-gutenberg.org/shelley/frankens
+chapters:
+  start: 1
+  end: 29
