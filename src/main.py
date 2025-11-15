@@ -94,8 +94,8 @@ def convert_chapters(cfg: typing.Dict[str, any]):
 
 
 def main():
-    cfg = read_config()
-    # fetch_files(cfg)
+    cfg = read_config(filename='config_template.yaml')
+    fetch_files(cfg)
     convert_chapters(cfg)
 
 if __name__ == '__main__':
